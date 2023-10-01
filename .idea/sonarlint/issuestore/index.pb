@@ -1,0 +1,30 @@
+
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+^
+..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
+K
+mywebsite/mywebsite/asgi.py,f\7\f7692414e89f62bb47726205cbf94b458ee06cbf
+H
+mywebsite/myapp/tests.py,a\1\a19a6d2e1c40f72cb3a1b58aaefcc96a044016d5
+K
+mywebsite/mywebsite/wsgi.py,7\7\77e98004d34013903a5a0b37022d26e8d5252313
+F
+djangohome/__init__.py,0\2\02342b566a323ec83980ff0539ca8664477e177c
+B
+djangohome/asgi.py,0\8\08964fa1ae800d0f4bcd97f5bbdef3c91dfb4636
+B
+djangohome/wsgi.py,1\c\1c41eab34d19341fbda6d2a8361e2ee353c4b5e9
+K
+mywebsite/myapp/__init__.py,8\b\8b667df00e1e5fa6a9905a7d2a98374a53c80eb3
+G
+mywebsite/myapp/apps.py,e\1\e1cded2fd3906b2e9f879abfff6e36ce677ff74f
+:
+
+db.sqlite3,9\0\907ac5e500f6286c18519bf943721af4c97e50d5
+9
+	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
+C
+mywebsite/manage.py,c\c\cc1982dadab6b2e85115d562be533e851c268ead
+O
+mywebsite/mywebsite/__init__.py,8\2\82dc12add92314e576111194d10bd3787376e828

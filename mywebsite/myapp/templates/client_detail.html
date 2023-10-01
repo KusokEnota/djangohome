@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Информация о клиенте</title>
+</head>
+<body>
+    <h1>Информация о клиенте</h1>
+    <p><strong>Имя:</strong> {{ client.name }}</p>
+    <p><strong>Email:</strong> {{ client.email }}</p>
+    <p><strong>Телефон:</strong> {{ client.phone }}</p>
+
+    <h1>Заказы клиента</h1>
+    <ul>
+        {% for order in client_orders %}
+            <li>{{ order.order_date }}: {{ order.some_field }}</li>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>
