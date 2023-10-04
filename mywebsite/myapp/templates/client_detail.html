@@ -10,11 +10,11 @@
     <p><strong>Телефон:</strong> {{ client.phone }}</p>
 
     <h1>Заказы клиента</h1>
-    <ul>
-        {% for order in client_orders %}
-            <li>{{ order.order_date }}: {{ order.some_field }}</li>
 
-        {% endfor %}
+    <ul>
+    {% for product in last_month_products %}
+        <li>{{ product.name }}</li>
+    {% endfor %}
     </ul>
 </body>
 </html>
