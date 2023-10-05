@@ -3,8 +3,6 @@
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 ^
 ..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
-K
-mywebsite/mywebsite/asgi.py,f\7\f7692414e89f62bb47726205cbf94b458ee06cbf
 H
 mywebsite/myapp/tests.py,a\1\a19a6d2e1c40f72cb3a1b58aaefcc96a044016d5
 K
@@ -15,10 +13,6 @@ B
 djangohome/asgi.py,0\8\08964fa1ae800d0f4bcd97f5bbdef3c91dfb4636
 B
 djangohome/wsgi.py,1\c\1c41eab34d19341fbda6d2a8361e2ee353c4b5e9
-K
-mywebsite/myapp/__init__.py,8\b\8b667df00e1e5fa6a9905a7d2a98374a53c80eb3
-G
-mywebsite/myapp/apps.py,e\1\e1cded2fd3906b2e9f879abfff6e36ce677ff74f
 9
 	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
 C
@@ -31,13 +25,14 @@ w
 G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
 w
 G.idea/sonarlint/issuestore/0/8/08964fa1ae800d0f4bcd97f5bbdef3c91dfb4636,8\3\83f0558fc643f30aa4082cccc5af9ee809aa49ef
-F
-djangohome/settings.py,2\4\24a538af0ea80dcd293e450574b9ae9b56253616
 B
 djangohome/urls.py,a\3\a38833bc6c79cd6b42bed659e161abeb4043aae0
-O
-mywebsite/mywebsite/settings.py,a\d\ad140311840698b173b29cff6288380220fd7c75
-K
-mywebsite/mywebsite/urls.py,e\2\e2445183ced3cc9347dca856db31cd2c2517fd63
 w
 G.idea/sonarlint/issuestore/0/2/02342b566a323ec83980ff0539ca8664477e177c,c\9\c930721467f48c0eae317cb4c929d81d863dff76
+:
+
+db.sqlite3,9\0\907ac5e500f6286c18519bf943721af4c97e50d5
+Z
+*mywebsite/myapp/migrations/0001_initial.py,5\9\5929b434f2c90f55ba764addc4227cfdc5094fe9
+„
+Tmywebsite/myapp/migrations/0002_product_rename_phone_client_phone_number_and_more.py,8\5\85aeaeb86299757fe5787c186fe26f5864677b08

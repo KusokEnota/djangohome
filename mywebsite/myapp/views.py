@@ -1,8 +1,19 @@
 from django.http import HttpResponse
 from .models import Client
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Order, Product
 from django.utils.timezone import now, timedelta
+from .forms import ProductForm
+
+def create_product(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('product_list')
+    else:
+        form = ProductForm()
+    return render(request, 'create_product.html', {'form': form})
 
 def client_orders(request, client_id):
     client_orders = Order.objects.filter(client_id=client_id)
