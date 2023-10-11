@@ -3,11 +3,21 @@
 <head>
     <title>Информация о клиенте</title>
 </head>
+
+<nav>
+    <a href="/">Главная</a>
+    <a href="/about/">Обо мне</a>
+    <a href="/admin/"> Админ панель</a>
+    <a href="/clients/"> Список клиентов</a>
+    <a href="/clients/1/orders/"> Список заказанных товаров</a>
+</nav>
+
 <body>
+
     <h1>Информация о клиенте</h1>
     <p><strong>Имя:</strong> {{ client.name }}</p>
     <p><strong>Email:</strong> {{ client.email }}</p>
-    <p><strong>Телефон:</strong> {{ client.phone }}</p>
+    <p><strong>Телефон:</strong> {{ client.phone_number }}</p>
 
     <h1>Заказы клиента</h1>
 

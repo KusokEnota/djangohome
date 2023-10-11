@@ -5,6 +5,7 @@ from .models import Order, Product
 from django.utils.timezone import now, timedelta
 from .forms import ProductForm
 
+
 def create_product(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
@@ -49,19 +50,36 @@ def client_products(request, client_id):
     }
 
     return render(request, 'client_orders_list.html', context)
+
+def client_orders_list(request, order_id=None):
+    current_date = now()
+    last_week_start = current_date - timedelta(days=7)
+    last_month_start = current_date - timedelta(days=30)
+    last_year_start = current_date - timedelta(days=365)
+
+    last_week_products = Product.objects.filter(order__order_date__gte=last_week_start)
+    last_month_products = Product.objects.filter(order__order_date__gte=last_month_start)
+    last_year_products = Product.objects.filter(order__order_date__gte=last_year_start)
+
+    if order_id is not None:
+        order = Order.objects.get(pk=order_id)
+        product = Product.objects.get(pk=product_id)  # Здесь нужно получить product_id из запроса или иного источника
+    else:
+        order = None
+        product = None
+
+    return render(request, 'client_orders_list.html', {
+        'last_week_products': last_week_products,
+        'last_month_products': last_month_products,
+        'last_year_products': last_year_products,
+        'order': order,
+        'product': product,
+    })
+
+
+
 def home(request):
-    html = """
-    <html>
-    <head>
-        <title>Главная страница</title>
-    </head>
-    <body>
-        <h1>Добро пожаловать на мой Django-сайт!</h1>
-        <p>Это главная страница сайта.</p>
-    </body>
-    </html>
-    """
-    return HttpResponse(html)
+    return render(request, 'home/home.html')
 
 def about(request):
     html = """
