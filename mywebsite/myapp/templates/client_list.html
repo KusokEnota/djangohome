@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список клиентов</title>
+</head>
+
+<nav>
+    <a href="/">Главная</a>
+    <a href="/about/">Обо мне</a>
+    <a href="/admin/"> Админ панель</a>
+    <a href="/clients/"> Список клиентов</a>
+    <a href="/clients/1/orders/"> Список заказанных товаров</a>
+</nav>
+
+<body>
+    <h1>Список клиентов</h1>
+    <ul>
+        {% for client in clients %}
+        <li><a href="{% url 'client_detail' client.id %}">{{ client.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

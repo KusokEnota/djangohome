@@ -1,0 +1,41 @@
+<nav>
+    <a href="/">Главная</a>
+    <a href="/about/">Обо мне</a>
+    <a href="/admin/"> Админ панель</a>
+    <a href="/clients/"> Список клиентов</a>
+    <a href="/clients/1/orders/"> Список заказанных товаров</a>
+</nav>
+
+<h1>Список заказанных товаров</h1>
+
+<h3>За последние 7 дней:</h3>
+<ul>
+    {% for product in last_week_products %}
+        <li>{{ product.name }}</li>
+    {% endfor %}
+</ul>
+
+<h4>За последние 30 дней:</h4>
+<ul>
+    {% for product in last_month_products %}
+        <li>{{ product.name }}</li>
+    {% endfor %}
+</ul>
+
+<h4>За последние 365 дней:</h4>
+<ul>
+    {% for product in last_year_products %}
+        <li>{{ product.name }}</li>
+    {% endfor %}
+</ul>
+
+<h1>Order Details</h1>
+<p>Order ID: {{ order.id }}</p>
+
+{% if product %}
+  <p>Product: {{ product.name }}</p>
+  <p>Product Description: {{ product.description }}</p>
+  <img src="{{ product.photo.url }}" alt="{{ product.name }}" width="200">
+{% else %}
+  <p>No products in this order</p>
+{% endif %}
