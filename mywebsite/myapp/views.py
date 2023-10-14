@@ -90,6 +90,7 @@ def about(request):
     <body>
         <h1>Обо мне</h1>
         <p>Меня зовут Денис. Я студент GB :).</p>
+        
     </body>
     </html>
     """

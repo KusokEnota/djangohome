@@ -13,10 +13,6 @@ B
 djangohome/asgi.py,0\8\08964fa1ae800d0f4bcd97f5bbdef3c91dfb4636
 B
 djangohome/wsgi.py,1\c\1c41eab34d19341fbda6d2a8361e2ee353c4b5e9
-9
-	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
-C
-mywebsite/manage.py,c\c\cc1982dadab6b2e85115d562be533e851c268ead
 O
 mywebsite/mywebsite/__init__.py,8\2\82dc12add92314e576111194d10bd3787376e828
 w
@@ -36,14 +32,10 @@ Z
 *mywebsite/myapp/migrations/0001_initial.py,5\9\5929b434f2c90f55ba764addc4227cfdc5094fe9
 „
 Tmywebsite/myapp/migrations/0002_product_rename_phone_client_phone_number_and_more.py,8\5\85aeaeb86299757fe5787c186fe26f5864677b08
-V
-&mywebsite/myapp/migrations/__init__.py,0\d\0daf7e4746a796ccf6c0aee3db64e69dac7ba796
 F
 djangohome/settings.py,2\4\24a538af0ea80dcd293e450574b9ae9b56253616
 K
 mywebsite/mywebsite/asgi.py,f\7\f7692414e89f62bb47726205cbf94b458ee06cbf
-a
-1mywebsite/myapp/templates/admin/custom_admin.html,1\6\163318585229fbc905b01493c54d55534e9346cd
 K
 mywebsite/myapp/__init__.py,8\b\8b667df00e1e5fa6a9905a7d2a98374a53c80eb3
 F
